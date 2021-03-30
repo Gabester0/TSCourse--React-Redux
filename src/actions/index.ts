@@ -8,8 +8,6 @@ interface ToDo {
     completed: boolean;
 }
 
-//Random comment to delete soon
-
 interface FetchTodosAction {
     type: ActionTypes.FETCH_TODOS;
     payload: ToDo[];
